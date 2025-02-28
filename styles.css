@@ -1,17 +1,77 @@
+/* universal styles */
+:root {
+  --background: #f1ece2;
+  --text: #000;
+  --heading: #325241;
+}
+body {
+  font-size: 16px;
+  background-color: var(--background);
+}
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+ul {
+  list-style: '- ';
+}
+
+/* nav styles */
 nav img {
-    width: 50px;
-  }
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-  i {
-    font-size: 32px;
-  }
-  #myWork img {
-    object-fit: cover;
-    width: 100%;
-    height: 40vh;
-    object-position: top;
-    padding: 10px;
-  }
+  width: 50px;
+}
+.navbar {
+  background-color: var(--background);
+}
+
+/* hero styles */
+#hero {
+  padding: 10% 5%;
+}
+#hero p {
+  font-size: 1.1rem;
+}
+
+/* myWork styles */
+#myWork img {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+  object-position: top;
+  padding: 10px;
+}
+#myWork p {
+  color: var(--heading);
+}
+
+/* hr styles */
+hr {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+/* footer styles */
+i {
+  font-size: 32px;
+}
+
+/* about html styles */
+#myToolbox h3{
+  color: var(--heading);
+}
+#education h3{
+  color: var(--heading);
+}
+.courses ul{
+  margin-bottom: 0;
+}
+/* amped html syles */
+#aboutAmped img {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+  object-position: top;
+  padding: 10px;
+}
+  

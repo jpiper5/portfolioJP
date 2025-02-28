@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="assets/JP.svg" alt="JP logo">
@@ -37,19 +37,22 @@
         </div>
       </nav>
       <section id="hero">
-        <h1>About Me</h1>
-        <p>I use my passion for problem solving to create designs that are aesthetically pleasing and intuitive for all types of users. I also bring my UX knowledge into my coding projects to ensure I'm creating responsive and accessible websites.</p>
+        <h1 class="display-5">About Me</h1>
+        <div class="row">
+          <div class="col-10 col-md-8 col-lg-6">
+            <p class="text-body-secondary">I use my passion for problem solving to create designs that are aesthetically pleasing and intuitive for all types of users. I also bring my UX knowledge into my coding projects to ensure I'm creating responsive and accessible websites.</p>
+          </div>
+        </div>
       </section>
     </header>
     <main>
-      <section id="myWork">
-        <h2>My Toolbox</h2>
+      <section id="myToolbox" class="pt-4 px-3">
+        <h2 class="pb-3 px-2">My Toolbox</h2>
         <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-lg-4">
-              <img src="" alt="">
+          <div class="row px-3">
+            <div class="col-sm-6 col-lg-4 tools">
               <h3>User Research</h3>
-              <ul>
+              <ul class="px-4">
                 <li>Surveys</li>
                 <li>Interviews</li>
                 <li>Personas</li>
@@ -57,45 +60,40 @@
                 <li>Usability Tests</li>
               </ul>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <img src="" alt="">
-              <h3>Wireframes</h3>
-              <ul>
+            <div class="col-sm-6 col-lg-4 tools">
+              <h3 >Wireframes</h3>
+              <ul class="px-4">
                 <li>Figma</li>
                 <li>Balsamiq</li>
                 <li>Low - Medium Fidelity</li>
               </ul>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <img src="" alt="">
-              <h3>Prototypes</h3>
-              <ul>
+            <div class="col-sm-6 col-lg-4 tools">
+              <h3 >Prototypes</h3>
+              <ul class="px-4">
                 <li>Figma</li>
                 <li>Balsamiq</li>
                 <li>High Fidelity</li>
               </ul>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <img src="" alt="">
-              <h3>Accessibility</h3>
-              <ul>
+            <div class="col-sm-6 col-lg-4 tools">
+              <h3 >Accessibility</h3>
+              <ul class="px-4">
                 <li>WCAG AA Compliant</li>
                 <li>WAVE Evaluation</li>
               </ul>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <img src="" alt="">
+            <div class="col-sm-6 col-lg-4 tools">
               <h3>Responsive Design</h3>
-              <ul>
+              <ul class="px-4">
                 <li>Breakpoints using CSS/Bootstrap</li>
                 <li>Responsive Images</li>
                 <li>Mobile-First Design</li>
               </ul>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <img src="" alt="">
+            <div class="col-sm-6 col-lg-4 tools">
               <h3>Coding</h3>
-              <ul>
+              <ul class="px-4">
                 <li>Semantic HTML</li>
                 <li>CSS</li>
                 <li>Bootstrap</li>
@@ -107,40 +105,46 @@
           </div>
         </div>
       </section>
-      <section id="education">
-        <h2>Education</h2>
+      <hr>
+      <section id="education" class="pt-4 px-3 mb-5">
+        <h2 class="pb-3 px-2">Education</h2>
         <div class="container">
-          <div class="row">
+          <div class="row px-3">
             <div class="col-sm-6">
               <h3>Arizona State University</h3>
-              <p>B.S. in Human Systems Engineering <br> Aug 2020 - May 2025 <br> GPA: 3.98</p>
+              <p class="px-4">B.S. in Human Systems Engineering <br> Aug 2020 - May 2025 <br> GPA: 3.98</p>
             </div>
             <div class="col-sm-6">
               <h3>Global Career Accelerator</h3>
-              <p>Jan 2025 - May 2025 <br> Certifications in HTML, CSS, and JavaScript</p>
+              <p class="px-4">Jan 2025 - May 2025 <br> Certifications in HTML, CSS, and JavaScript</p>
+            </div>
+            <h3>Relevant Courses</h3>
+            <div class="col-sm-6 courses">
+              <ul class="px-4">
+                <li>Web Content Design</li>
+                <li>Info Design/Usability</li>
+                <li>Responsive Web Development</li>
+                <li>Advanced Web Markup and Scripting</li>
+              </ul>
+            </div>
+            <div class="col-sm-6 courses">
+              <ul class="px-4">
+                <li>Multimedia Authoring, Scripting, and Production</li>
+                <li>Human Computer Interaction</li>
+                <li>Product Design and Evaluation</li>
+                <li>Web Development with JavaScript and APIs</li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
-      <section id="relevantCourses">
-        <h2>Relevant Courses</h2>
-        <ul>
-          <li>Web Content Design</li>
-          <li>Info Design/Usability</li>
-          <li>Responsive Web Development</li>
-          <li>Advanced Web Markup and Scripting</li>
-          <li>Multimedia Authoring, Scripting, and Production</li>
-          <li>Human Computer Interaction</li>
-          <li>Product Design and Evaluation</li>
-          <li>Web Development with JavaScript and APIs</li>
-        </ul>
-      </section>
+      
     </main>
     <hr />
-    <footer>
-        <a href="https://www.linkedin.com/in/jessica-piper/">LinkedIn<i class="bi bi-linkedin"></i></a>
-        <a href="https://github.com/jpiper5">GitHub<i class="bi bi-github"></i></a>
-        <a href="https://www.behance.net/jessicapiper2">Behance<i class="bi bi-behance"></i></a>
+    <footer class="py-2 d-flex justify-content-center">
+      <a href="https://github.com/jpiper5" aria-label="link to Jessica Piper's GitHub profile" class="px-2"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/jessica-piper/" aria-label="link to Jessica Piper's LinkedIn profile" class="px-2"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.behance.net/jessicapiper2" aria-label="link to Jessica Piper's Behance profile" class="px-2"><i class="bi bi-behance"></i></a>
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="assets/JP.svg" alt="JP logo">
@@ -38,37 +38,49 @@
         </div>
       </nav>
       <section id="hero">
-        <h1>Hi! I'm Jessica Piper, an aspiring UX designer with a passion for coding and front-end development based in Phoenix, Arizona.</h1>
-        <p>I create intuitive designs that prioritize accessiblility and responsive layouts</p>
+        <div class="container">
+          <div class="row pb-4">
+            <div class="col-md-9">
+              <h1 class="display-5">Hi! I'm Jessica Piper, an aspiring UX designer with a passion for coding and front-end development based in Phoenix, Arizona.</h1>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <p class="text-body-secondary">I create intuitive designs that prioritize accessibility and responsive layouts.</p>
+            </div>
+          </div>
+        </div>
       </section>
     </header>
     <main>
-      <section id="myWork">
-        <h2>My Work</h2>
+      <section id="myWork" class="pt-4 px-3 mx-auto">
+        <h2 class="pb-3 px-2">My Work</h2>
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-xl-3">
+          <div class="row text-center">
+            <div class="col-md-6 col-xl-3 mb-5">
               <a href="amped.html">
-                <img src="assets/ampedPrototypeHero.png" alt="Amped Coffee Co home page">
-                <h3>Amped Coffee Co</h3>
+                <img src="assets/ampedPrototypeHero1.png" alt="Amped Coffee Co home page">
+                <h3 class="pt-2">Amped Coffee Co</h3>
                 <p>UX/UI | Front-End Development</p>
               </a>
             </div>
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-3 mb-5">
               <a href="depop.html">
                 <img src="assets/depopPrototypeHome.png" alt="Depop home page">
                 <h3>Depop</h3>
                 <p>UX/UI</p>
               </a>
             </div>
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-3 mb-5">
               <a href="dutch.html">
                 <img src="assets/dutchHome.png" alt="Dutch Bros home page">
                 <h3>Dutch Bros</h3>
                 <p>UX/UI</p>
               </a>
             </div>
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-3 mb-5">
               <a href="roleModel.html">
                 <img id="roleM" src="assets/roleModelHero.png" alt="Role Model home page">
                 <h3>Role Model</h3>
@@ -80,10 +92,10 @@
       </section>
     </main>
     <hr />
-    <footer>
-      <a href="https://www.linkedin.com/in/jessica-piper/">LinkedIn<i class="bi bi-linkedin"></i></a>
-      <a href="https://github.com/jpiper5">GitHub<i class="bi bi-github"></i></a>
-      <a href="https://www.behance.net/jessicapiper2">Behance<i class="bi bi-behance"></i></a>
+    <footer class="py-2 d-flex justify-content-center">
+      <a href="https://github.com/jpiper5" aria-label="link to Jessica Piper's GitHub profile" class="px-2"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/jessica-piper/" aria-label="link to Jessica Piper's LinkedIn profile" class="px-2"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.behance.net/jessicapiper2" aria-label="link to Jessica Piper's Behance profile" class="px-2"><i class="bi bi-behance"></i></a>
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
