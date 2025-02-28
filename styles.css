@@ -8,4 +8,10 @@ nav img {
   i {
     font-size: 32px;
   }
-  
+  #myWork img {
+    object-fit: cover;
+    width: 100%;
+    height: 40vh;
+    object-position: top;
+    padding: 10px;
+  }
