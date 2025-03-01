@@ -68,10 +68,7 @@ i {
 }
 /* amped html syles */
 #aboutAmped img {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
-  height: 80vh;
-  object-position: top;
-  padding: 10px;
 }
   
