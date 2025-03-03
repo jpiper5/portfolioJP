@@ -29,7 +29,7 @@ nav img {
   padding: 10% 5%;
 }
 #hero p {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 /* myWork styles */
@@ -67,8 +67,15 @@ i {
   margin-bottom: 0;
 }
 /* amped html syles */
+#hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+  object-position: top;
+}
 #aboutAmped img {
   object-fit: contain;
   width: 100%;
 }
+
   
