@@ -78,4 +78,8 @@ i {
   width: 100%;
 }
 
-  
+  /* depop styles */
+  #aboutDepop img {
+    object-fit: contain;
+    width: 100%;
+  }
