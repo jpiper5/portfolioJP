@@ -81,5 +81,5 @@ i {
 /* dutch styles */
 #aboutDutch img {
   object-fit: contain;
-  max-height: 80vh;
+  width: 100%;
 }
