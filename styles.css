@@ -83,3 +83,12 @@ i {
   object-fit: contain;
   width: 100%;
 }
+iframe {
+  width: 100%;
+}
+
+/* role model styles */
+#aboutRoleModel button {
+  background-color: var(--heading) !important;
+  border-color: var(--heading) !important;
+}
