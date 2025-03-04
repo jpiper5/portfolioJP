@@ -71,17 +71,26 @@ i {
   object-fit: contain;
   width: 100%;
 }
+#aboutAmped h2 {
+  color: var(--heading);
+}
 
 /* depop styles */
 #aboutDepop img {
   object-fit: contain;
   width: 100%;
 }
+#aboutDepop h2 {
+  color: var(--heading);
+}
 
 /* dutch styles */
 #aboutDutch img {
   object-fit: contain;
   width: 100%;
+}
+#aboutDutch h2 {
+  color: var(--heading);
 }
 iframe {
   width: 100%;
@@ -91,4 +100,11 @@ iframe {
 #aboutRoleModel button {
   background-color: var(--heading) !important;
   border-color: var(--heading) !important;
+}
+#aboutRoleModel h2 {
+  color: var(--heading);
+}
+#aboutRoleModel img {
+  object-fit: contain;
+  width: 100%;
 }
