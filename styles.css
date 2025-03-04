@@ -97,7 +97,7 @@ iframe {
 }
 
 /* role model styles */
-#aboutRoleModel button {
+#aboutRoleModel a {
   background-color: var(--heading) !important;
   border-color: var(--heading) !important;
 }
